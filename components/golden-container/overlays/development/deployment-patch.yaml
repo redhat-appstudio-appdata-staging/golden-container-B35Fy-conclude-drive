@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/zregvart-tenant/golden-container/golden-container@sha256:754df0a61505c5282f3a38e7ae715497fcfd86b345be43142fab4bcf599b2f40
+      - image: quay.io/redhat-user-workloads-stage/zregvart-tenant/golden-container/golden-container@sha256:866b55533b166bb0df7a9747c1a8177aaeac51e8e5fe5d89cfb7129dd2281272
         name: container-image
         resources: {}
 status: {}
