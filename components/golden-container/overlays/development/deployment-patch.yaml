@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: golden-container
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/zregvart-tenant/golden-container/golden-container@sha256:754df0a61505c5282f3a38e7ae715497fcfd86b345be43142fab4bcf599b2f40
+        name: container-image
+        resources: {}
+status: {}
