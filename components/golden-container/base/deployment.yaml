@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: golden-container
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/zregvart-tenant/golden-container/golden-container@sha256:866b55533b166bb0df7a9747c1a8177aaeac51e8e5fe5d89cfb7129dd2281272
+      - image: quay.io/redhat-user-workloads-stage/zregvart-tenant/golden-container/golden-container@sha256:9952c7e41bf7d15e96f02235973e837800e1400716a12fa2bdcc1e68b6c26e98
         imagePullPolicy: Always
         name: container-image
         resources:
